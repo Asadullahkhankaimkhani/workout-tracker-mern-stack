@@ -27,6 +27,6 @@ app.use('/excersie',excersieRouter);
 app.use('/users',usersRouter);
 // Sever Port Or Server
 app.listen(port,()=> {
-    console.log(`Sever is running ${port}`);
+    console.log(`Server is running ${port}`);
 
 });

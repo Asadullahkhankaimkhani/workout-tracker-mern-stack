@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { model } = require('mongoose');
+
 let Excersie = require('../models/excersie.model');
 // Defining Routers 
 router.route('/').get((req,res) =>{
@@ -30,7 +30,3 @@ router.route('/add').post((req , res)=> {
 });
 
 module.exports = router;
-
-
-});
-
